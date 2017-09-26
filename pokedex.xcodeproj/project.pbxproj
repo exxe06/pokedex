@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FEB67021F79852700A8EBED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB67011F79852700A8EBED /* Constants.swift */; };
 		2FF9B5361F752A97005A6B17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9B5351F752A97005A6B17 /* AppDelegate.swift */; };
 		2FF9B5381F752A97005A6B17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9B5371F752A97005A6B17 /* ViewController.swift */; };
 		2FF9B53B1F752A97005A6B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF9B5391F752A97005A6B17 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FEB67011F79852700A8EBED /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2FF9B5321F752A97005A6B17 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF9B5351F752A97005A6B17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FF9B5371F752A97005A6B17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				2FF9B54F1F755112005A6B17 /* csv.swift */,
+				2FEB67011F79852700A8EBED /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				2FF9B5361F752A97005A6B17 /* AppDelegate.swift in Sources */,
 				2FF9B54E1F753705005A6B17 /* PokeCell.swift in Sources */,
 				2FF9B55F1F76ABA0005A6B17 /* PokemonDetailVC.swift in Sources */,
+				2FEB67021F79852700A8EBED /* Constants.swift in Sources */,
 				2FF9B54B1F752F3C005A6B17 /* Pokemon.swift in Sources */,
 				2FF9B5501F755112005A6B17 /* csv.swift in Sources */,
 			);
